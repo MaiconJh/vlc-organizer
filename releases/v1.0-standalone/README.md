@@ -48,6 +48,12 @@ Use esta versão se:
 - Não quer se preocupar com dependências
 - Prefere "funcionar em qualquer lugar"
 
+## ⚠️ Aviso Legal
+
+**Este projeto NÃO é afiliado ao VLC Media Player ou VideoLAN.** É um projeto independente que requer o VLC instalado separadamente.
+
+Para mais detalhes, veja: [DISCLAIMER.md](../../DISCLAIMER.md)
+
 ---
 
 **💡 Dica**: Se você tem controle sobre o ambiente e quer economia de espaço, use a [versão leve](../v1.0-light/).

@@ -185,10 +185,11 @@ dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=
 
 ## 📋 Requisitos do Sistema
 
-- ✅ Windows 10/11
-- ✅ PowerShell 5.1+ (incluso no Windows)
-- ✅ VLC Media Player (opcional, mas recomendado)
-- ✅ **Nenhuma dependência externa** - instalador é auto-contido!
+- **Windows**: 10 ou 11
+- **VLC Player**: Deve ser instalado separadamente
+- **PowerShell**: 5.1+ (incluso no Windows)
+- **.NET Runtime**: 8.0 (apenas para versão leve)
+- **Permissões**: Administrador (para registrar menu de contexto)
 
 ## 🐛 Resolução de Problemas
 
@@ -206,9 +207,31 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 - Verifique se o instalador foi executado como Administrador
 - Confirme que o script PowerShell existe no caminho registrado
 
+## ⚠️ Aviso Legal e Disclaimer
+
+### 🚫 Não Afiliação
+**Este projeto NÃO é afiliado, patrocinado ou endossado pela VideoLAN ou pelo VLC Media Player.**
+
+- **VLC Media Player** é uma marca registrada da VideoLAN
+- Este é um projeto **independente** que facilita o uso do VLC
+- O **VLC Player deve ser instalado separadamente**
+- Todos os direitos do VLC pertencem aos seus respectivos proprietários
+
+### 🛡️ Responsabilidade
+- Este software é fornecido "como está", sem garantias
+- Use por sua própria conta e risco
+- Sempre execute como Administrador apenas de fontes confiáveis
+- Faça backup dos seus dados antes de usar
+
+### 🎯 Propósito
+Este projeto tem fins **educacionais e de conveniência**, visando:
+- Demonstrar integração com Windows Registry
+- Facilitar organização de arquivos de mídia
+- Prover exemplo de aplicação .NET com Windows Forms
+
 ## 📄 Licença
 
-Este projeto é fornecido "como está" para uso pessoal e educacional.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## 🤝 Contribuições
 
@@ -219,4 +242,10 @@ Contribuições são bem-vindas! Sinta-se livre para:
 
 ---
 
-**🎬 VLC Organizer v2.0** - Transformando pastas bagunçadas em playlists organizadas! ✨
+<p align="center">
+  <strong>🎬 Transforme suas pastas de vídeos em playlists organizadas com um clique! 🎬</strong>
+</p>
+
+<p align="center">
+  Feito com ❤️ para usuários do VLC Player | Projeto independente e não oficial
+</p>

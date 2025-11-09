@@ -45,6 +45,12 @@ Após instalação:
 2. Selecione "Organizar com VLC"
 3. Aproveite sua playlist organizada!
 
+## ⚠️ Aviso Legal
+
+**Este projeto NÃO é afiliado ao VLC Media Player ou VideoLAN.** É um projeto independente que requer o VLC instalado separadamente.
+
+Para mais detalhes, veja: [DISCLAIMER.md](../../DISCLAIMER.md)
+
 ---
 
 **💡 Dica**: Se você não quer instalar o .NET Runtime, use a [versão standalone](../v1.0-standalone/).
