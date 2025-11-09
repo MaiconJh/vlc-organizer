@@ -1,0 +1,68 @@
+{
+  "app": {
+    "name": "VLC Organizer",
+    "version": "2.0.0",
+    "description": "Organizador inteligente de playlists para VLC Media Player"
+  },
+  "vlc": {
+    "possiblePaths": [
+      "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe",
+      "%PROGRAMFILES%\\VideoLAN\\VLC\\vlc.exe",
+      "%PROGRAMFILES(X86)%\\VideoLAN\\VLC\\vlc.exe"
+    ],
+    "arguments": {
+      "default": "--started-from-file",
+      "playlist": "--playlist-enqueue",
+      "fullscreen": "--fullscreen",
+      "loop": "--loop"
+    }
+  },
+  "files": {
+    "supportedExtensions": [
+      ".mp4", ".mkv", ".avi", ".mov", ".wmv", ".flv", ".webm", 
+      ".m4v", ".3gp", ".ogv", ".ts", ".m2ts", ".vob", ".divx"
+    ],
+    "playlistName": "playlist_organizada.xspf",
+    "playlistFormat": "xspf"
+  },
+  "parsing": {
+    "seasonPatterns": [
+      "S(\\d+)E(\\d+)",
+      "Season\\s*(\\d+).*Episode\\s*(\\d+)",
+      "Temporada\\s*(\\d+).*Episodio\\s*(\\d+)",
+      "(\\d+)ª\\s*Temporada.*Ep\\s*(\\d+)",
+      "\\[(\\d+)x(\\d+)\\]"
+    ],
+    "seriesCleanup": [
+      "\\[.*?\\]",
+      "\\(.*?\\)",
+      "\\s*S\\d+\\s*$",
+      "\\s*Season\\s*\\d+\\s*$",
+      "\\s*Part\\s*\\d+\\s*$",
+      "\\s*\\d+ª\\s*Temporada\\s*$"
+    ],
+    "genericFolders": [
+      "Temp", "Download", "New Folder", "Anime", "Videos", 
+      "Movies", "Series", "Downloads", "Filmes", "Séries"
+    ]
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "logFile": "logs\\vlc-organizer.log",
+    "maxLogSize": "10MB",
+    "keepLogs": 5
+  },
+  "ui": {
+    "colors": {
+      "success": "Green",
+      "error": "Red",
+      "warning": "Yellow",
+      "info": "Cyan",
+      "highlight": "Magenta"
+    },
+    "showProgress": true,
+    "verboseMode": false
+  }
+}

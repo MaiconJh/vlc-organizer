@@ -1,0 +1,33 @@
+# VLC Organizer - Arquivos a ignorar
+
+## Builds e binários
+bin/
+bin-standalone/
+**/bin/
+**/obj/
+*.exe
+*.dll
+*.pdb
+
+## Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.cache
+packages/
+*.log
+
+## Arquivos temporários
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+## Configurações locais
+appsettings.local.json
+*.local.*
+
+## Arquivos de backup
+*.bak
+*.orig
+*~
