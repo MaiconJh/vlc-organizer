@@ -3,9 +3,10 @@
 ## 📋 Informações da Release
 
 - **Versão**: v1.0-light
-- **Tamanho**: ~150KB
-- **Requisitos**: .NET 8.0 Runtime
+- **Tamanho**: ~187KB
+- **Requisitos**: .NET 8.0 Runtime  
 - **Plataforma**: Windows 10/11
+- **Arquivo**: Único e independente (single-file)
 
 ## 📥 Download
 
@@ -27,9 +28,10 @@ Esta versão requer o **.NET 8.0 Runtime** instalado no computador:
 
 ## ✅ Vantagens
 
-- ✅ Arquivo muito pequeno (~150KB)
+- ✅ Arquivo pequeno (~187KB)
+- ✅ **Arquivo único** - não precisa de DLLs extras
 - ✅ Build rápido
-- ✅ Menos consumo de espaço
+- ✅ Funciona copiando apenas o .exe
 
 ## ⚠️ Considerações
 
